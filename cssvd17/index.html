@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+
+    <style>
+        /* ELEMENT SELECTOR  */
+        div{
+            /* background-color: aquamarine;  */
+        }
+
+        /* CLASS SELECTOR  */
+        .red{
+            background-color: red;
+        }
+
+        /* ID SELECTOR  */
+        #blueviolet{
+            background-color: blueviolet;
+        }
+
+        /* CHILD SELECTOR  */
+        div > p{
+            color: black;
+            background-color: darksalmon;
+        }
+
+        /* DESCENDENT SELECTOR  */
+        div  p{
+            color: black;
+            background-color: darksalmon;
+        }
+
+        /* UNIVERSAL SELEVTOR  */
+        *{
+            margin: 0;
+            padding: 0;
+        }  
+
+        /* PSEUDO SELECTOR  */
+        a:visited{
+            color: yellow;
+        } 
+
+        a:active{
+            background-color: brown;
+        }
+
+         a:hover{
+            background-color: yellow;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <div class="red">
+        i am a gurlll.
+        <P>
+            good afternoon fellows.<br>
+            i had my breakfast just now.
+        </P>
+    </div>
+    <div id="blueviolet">
+        i love cooking.
+    </div>
+
+    <a href="https://www.google.com"> Go to google</a> 
+    
+</body>
+</html>
